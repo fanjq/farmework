@@ -9,12 +9,24 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>com.base.farmework.core</artifactId>
-    <version>${base-version}</version>
-
+    <groupId>com.base.farmework</groupId>
+    <artifactId>com.base.farmework.web</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
 
     <dependencies>
+        <!--<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>${spring-boot-version}</version>
+        </dependency>-->
+
+       <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+
+        </dependency>
 
     </dependencies>
+
 
 </project>
