@@ -1,6 +1,7 @@
 package com.base.farmework.web;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author     ：fjq
@@ -9,6 +10,7 @@ import org.springframework.boot.SpringApplication;
  * description ： 项目启动项
  */
 
+@SpringBootApplication
 public class Application {
 
     public static void main(String[] args) {
