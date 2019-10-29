@@ -23,7 +23,12 @@
        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
+        <dependency>
+            <groupId>com.base.farmework</groupId>
+            <artifactId>com.base.farmework.core</artifactId>
+            <version>${base-version}</version>
         </dependency>
 
     </dependencies>

@@ -13,3 +13,7 @@
 ### com.base.farmework.common
  + 架构内的工具类，用于一些基础框架内容
  + 
+ 
+### com.base.farmework.core
++ 架构的基础类
++ 包含自动加载配置文件，其他包的核心
